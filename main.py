@@ -3,8 +3,8 @@ import json
 from flask_basicauth import BasicAuth
 
 app = Flask(__name__)
-app.config['BASIC_AUTH_USERNAME'] = 'john'
-app.config['BASIC_AUTH_PASSWORD'] = 'matrix'
+app.config['BASIC_AUTH_USERNAME'] = 'hello'
+app.config['BASIC_AUTH_PASSWORD'] = '123'
 
 basic_auth = BasicAuth(app)
 
