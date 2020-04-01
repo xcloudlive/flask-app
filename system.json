@@ -16,7 +16,7 @@
     ],
     "Status": {
         "State": "Enabled",
-        "Health": "OK"
+        "Health": "NO"
     },
     "PowerState": "On",
     "Boot": {
